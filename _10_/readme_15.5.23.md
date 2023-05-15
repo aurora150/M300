@@ -1,5 +1,8 @@
 # _10_
-Heute Neues habe ich nicht wircklich viel gelernt, aber ich habe einfach die ganze umgebung eingerichtet und lauft
+Heute  habe ich nicht wircklich viel Neues gelernt, aber ich habe einfach die ganze umgebung eingerichtet und lauft
+
+Jedoch war das ganze verstehen des Vagrant nicht schlecht
+
 basic vagrant vm herstellen:
 
 ``` bash
@@ -11,3 +14,6 @@ vagrant up --provider virtualbox                                                
 cd Pfad/zu/meiner/Vagrant-VM      #Zum Verzeichnis der VM wechseln
 vagrant ssh                   
 ```
+
+reminder:
+vagrant init "C:\Users\aurora\Documents\ubuntu-22.04.1-desktop-amd64\ubuntu-22.04.1-desktop-amd64.iso"
