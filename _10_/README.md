@@ -1,7 +1,7 @@
 # :sparkles: 15.5.23 :sparkles: :shipit:
 Heute  habe ich nicht wircklich viel Neues gelernt, aber ich habe einfach die ganze umgebung eingerichtet und lauft
 
-Jedoch war das ganze verstehen des Vagrant nicht schlecht
+Jedoch war das ganze verstehen des Vagrant nicht schlecht :skull:
 
 basic vagrant vm herstellen: :trollface:	
 
