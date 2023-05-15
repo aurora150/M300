@@ -3,7 +3,7 @@ Heute  habe ich nicht wircklich viel Neues gelernt, aber ich habe einfach die ga
 
 Jedoch war das ganze verstehen des Vagrant nicht schlecht
 
-basic vagrant vm herstellen:
+basic vagrant vm herstellen: :trollface:	
 
 ``` bash
 cd Wohin/auch/immer
