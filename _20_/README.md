@@ -1,19 +1,30 @@
 # :sparkles: 22.5.23 :sparkles: 
 # :shipit:
-Heute  habe ich nicht wircklich viel Neues gelernt, aber ich habe einfach die ganze umgebung eingerichtet und lauft
+Heute  habe ich nicht unbedingt neu ,aber wichtiges aufrischend gelernt.
 
-Jedoch war das ganze verstehen des Vagrant nicht schlecht :sparkle:
-
-basic vagrant vm herstellen: :trollface:	
+Witchitge Vagrant Befehle 🙇‍♂️:
 
 ``` bash
-cd Wohin/auch/immer
-mkdir MeineVagrantVM
-cd MeineVagrantVM
-vagrant init ubuntu/xenial64                                                      #Vagrantfile erzeugen
-vagrant up --provider virtualbox                                                  #Virtuelle Maschine erstellen & starten
-cd Pfad/zu/meiner/Vagrant-VM      #Zum Verzeichnis der VM wechseln
-vagrant ssh                   
+vagrant init
+#Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile
+
+vagrant up
+#Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrantfile
+
+vagrant ssh
+#Baut eine SSH-Verbindung zur gewünschten VM auf
+
+vagrant status
+#Zeigt den aktuellen Status der VM an
+
+vagrant port
+#Zeigt die Weitergeleiteten Ports der VM an
+
+vagrant halt
+#Stoppt die laufende Virtuelle Maschine
+
+vagrant destroy
+#Stoppt die Virtuelle Maschine und zerstört sie.               
 ```
 
 reminder:
