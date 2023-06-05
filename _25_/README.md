@@ -14,9 +14,9 @@ Reverse Proxy:
     internet -> Prox-> Webserver
     1 definierte schnitstelle
 SSH
-    im vagrantfile
+    im vagrantfile:
+    
 Absichern der einzeln VMs
 Verstecken von Servern  und Services
 Benutzer rechteverwelatung
-SSH
 Auth, Autorisierung 
