@@ -1,20 +1,42 @@
 # :sparkles: 22.5.23 :sparkles: 
 # :shipit:
-Heute  habe ich nicht wircklich viel Neues gelernt, aber ich habe einfach die ganze umgebung eingerichtet und lauft
+Heute  habe ich nicht unbedingt neu ,aber wichtiges aufrischend gelernt.
 
-Jedoch war das ganze verstehen des Vagrant nicht schlecht :sparkle:
-
-basic vagrant vm herstellen: :trollface:	
+Witchitge Vagrant Befehle 🙇‍♂️:
 
 ``` bash
-cd Wohin/auch/immer
-mkdir MeineVagrantVM
-cd MeineVagrantVM
-vagrant init ubuntu/xenial64                                                      #Vagrantfile erzeugen
-vagrant up --provider virtualbox                                                  #Virtuelle Maschine erstellen & starten
-cd Pfad/zu/meiner/Vagrant-VM      #Zum Verzeichnis der VM wechseln
-vagrant ssh                   
+vagrant init
+#Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile
+
+vagrant up
+#Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrantfile
+
+vagrant ssh
+#Baut eine SSH-Verbindung zur gewünschten VM auf
+
+vagrant status
+#Zeigt den aktuellen Status der VM an
+
+vagrant port
+#Zeigt die Weitergeleiteten Ports der VM an
+
+vagrant halt
+#Stoppt die laufende Virtuelle Maschine
+
+vagrant destroy
+#Stoppt die Virtuelle Maschine und zerstört sie.               
 ```
 
-reminder:
-vagrant init "C:\Users\aurora\Documents\ubuntu-22.04.1-desktop-amd64\ubuntu-22.04.1-desktop-amd64.iso"
+- reminder:
+Boxen können explizit durch den Befehl vagrant box add [box-name] oder vagrant box add [box-url] heruntergeladen und durch vagrant box remove [box-name] entfernt werden. Ein "box-name" ist dabei durch Konvention wie folgt aufgebaut: Entwickler/Box (z.B. ubuntu/xenial64).
+- Konfiguration 
+Die gesamte Konfiguration erfolgt im Vagrantfile, das im entsprechenden Verzeichnis liegt. Die Syntax ist dabei an die Programmiersprache Ruby) angelehnt:
+
+    Vagrant.configure("2") do |config|
+        config.vm.define :apache do |web|
+            web.vm.box = "bento/ubuntu-16.04"
+            web.vm.provision :shell, path: "config_web.sh"
+            web.vm.hostname = "srv-web"
+            web.vm.network :forwarded_port, guest: 80, host: 4567
+            web.vm.network "public_network", bridge: "en0: WLAN (AirPort)"
+    end

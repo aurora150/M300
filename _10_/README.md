@@ -16,5 +16,4 @@ cd Pfad/zu/meiner/Vagrant-VM      #Zum Verzeichnis der VM wechseln
 vagrant ssh                   
 ```
 
-reminder:
-vagrant init "C:\Users\aurora\Documents\ubuntu-22.04.1-desktop-amd64\ubuntu-22.04.1-desktop-amd64.iso"
+
