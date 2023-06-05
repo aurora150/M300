@@ -14,8 +14,8 @@ Heute gehts um Sichherheit:
    - internet -> Prox-> Webserver
    - 1 definierte schnitstelle
 - [x] SSH
-   - im vagrantfile:
-    
+   - im vagrantfile
+    ![Screenshot 2023-06-05 141146](https://github.com/aurora150/M300/assets/52505952/eb93c0f1-ff10-481a-adf9-c4ded073cc87)
 - [x] Absichern der einzeln VMs
 - [x] Verstecken von Servern  und Services
 - [x] Benutzer rechteverwelatung
