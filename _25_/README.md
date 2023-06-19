@@ -146,3 +146,5 @@ alle pings funktionieren
 # Database user
 ![image](https://github.com/aurora150/M300/assets/52505952/e1cad5a9-0307-44ad-9558-7cff517a59aa)
 
+# Netzwerkplan
+![image](https://github.com/aurora150/M300/assets/52505952/a005a9b9-8374-46aa-9824-cf5de17af209)
