@@ -11,7 +11,8 @@ LB3
   - [__35__](https://github.com/aurora150/M300/tree/main/_35_)
 
   
-# Refelexion
+# Refelexion LB2
 In den letzten Wochen hatte ich die Gelegenheit, Vagrant kennenzulernen und damit zu arbeiten. Es war eine interessante Erfahrung, die mir sowohl Herausforderungen als auch positive Erlebnisse bescherte. Obwohl ich zu Beginn oft auf zufällige Probleme gestoßen bin, fand ich es ermutigend zu sehen, dass die meisten dieser Probleme in der nächsten Woche behoben werden konnten.
 
 Rückblickend betrachtet, îst es wichtig  bei der Arbeit mit neuen Werkzeugen wie Vagrant und GitHub geduldig zu sein. Anfangs können Schwierigkeiten auftreten, aber mit der Zeit können diese überwunden werden. Ich habe gelernt, dass Genauigkeit und ein ruhiges Vorgehen entscheidend sind, um Probleme zu identifizieren und effektive Lösungen zu finden.
+# Refelexion LB3
