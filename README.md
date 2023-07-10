@@ -16,3 +16,6 @@ In den letzten Wochen hatte ich die Gelegenheit, Vagrant kennenzulernen und dami
 
 Rückblickend betrachtet, îst es wichtig  bei der Arbeit mit neuen Werkzeugen wie Vagrant und GitHub geduldig zu sein. Anfangs können Schwierigkeiten auftreten, aber mit der Zeit können diese überwunden werden. Ich habe gelernt, dass Genauigkeit und ein ruhiges Vorgehen entscheidend sind, um Probleme zu identifizieren und effektive Lösungen zu finden.
 # Refelexion LB3
+In letzter Zeit habe ich gelernt, dass es viel anstrengender ist, docker desktop zu verwenden. Durch die Verwendung einer virtuellen Umgebung konnte ich feststellen, dass es einfacher und unkomplizierter ist, meine Aufgaben zu erledigen. 
+
+Die Einrichtung und Konfiguration einer VM war schneller und weniger komplex. Zudem bot sie eine stabilere Leistung und ermöglichte es mir, zwischen den Betriebssystemen nahtlos zu wechseln. Insgesamt habe ich gelernt, dass eine virtuelle Umgebung eine bessere Option ist, da sie einfacher zu handhaben ist und ein reibungsloses Arbeiten ermöglicht.
