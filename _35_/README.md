@@ -5,7 +5,8 @@
 - Überwachen und Benachrichtigen:
 ![image](https://github.com/aurora150/M300/assets/52505952/77054d48-fcf8-4526-acbc-9e3ca80d53ee)
 
-Sicherheitsaspekte:
+# Sicherheitsaspekte:
+
 Kernel Exploits: Durch die gemeinsame Nutzung des Kernels von allen Containern und dem Host hat ein Kernel-Exploit im Container weitreichende Auswirkungen auf den gesamten Host, im Gegensatz zu virtuellen Maschinen, wo zusätzliche Hürden überwunden werden müssen, um den Host-Kernel anzugreifen.
 
 Denial-of-Service-(DoS-)Angriffe: Durch die gemeinsame Nutzung von Ressourcen im Kernel können Container andere Container durch monopolisieren bestimmter Ressourcen wie Speicher oder User IDs (UIDs) daran hindern, das System oder Teile davon ansprechen zu können, was zu einem Denial-of-Service-Angriff führen kann.
